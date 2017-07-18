@@ -1,7 +1,7 @@
 var jwt = require('jsonwebtoken');
 var mongoose = require('mongoose');
 var mongodb = require('../db_mongo');
-var User = require('../models_mongo/user');
+// var User = require('../models_mongo/user')(mongoose);
 
 module.exports = function(req, res, next){
 	var sessionToken = req.headers.authorization;

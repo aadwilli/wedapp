@@ -1,4 +1,3 @@
-var router = require('express').Router();
 var bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
 var mongoose = require('mongoose');
